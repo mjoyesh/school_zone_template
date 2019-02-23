@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box  ;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.header-top{
+    background-color: #F8F8F8;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-top nav {
+    width: 100%;
+}
+
+.header-top nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header-top nav ul li {
+    color: gray;
+    display: inline-block;
+}
+
+.header-top nav ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+.fa {
+    color: #79B52F;
+    padding: 0;
+}
+
+.social{
+    float: right;
+    margin-top: 0;
+    position: relative;
+    bottom: 35px;
+
+}
+
+.social i{
+    padding-right: 10px;
+}
+
+.social i:last-child{
+    padding-right: 0;
+}
+
+.logo{
+    margin-top: 2px;
+    float: left;
+    width: 400px;
+}
+
+.apply{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 30px;
+    left: 13.5%;
+}
+
+.apply-button{
+    background-color: white;
+    font-weight: bold;
+    color: #79B52F;
+    border: 2px solid #79B52F;
+    padding: 15px 48px;
+    cursor: pointer;
+}
+
+.apply-button:hover{
+    background-color: #b0ff40;
+}
+
+.header2{
+    display: inline-block;
+    width: 100%;
+    margin-left: -10px;
+    height: 50px;
+}
+
+.contact{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 242px;
+}
+
+.contact p{
+    float: left;
+}
+
+.location{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    left: 8%;
+}
+
+.location-details{
+    position: relative;
+    bottom: 10px;
+}
+
+.phone{
+    float: left;
+    padding-top: 10px;
+}
+
+.header3 {
+    background-color: #79B52F;
+    width: 100%;
+}
+
+.header3 nav{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.header3 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header3 ul li{
+    color: white;
+    display: inline-block;
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.header3 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header3 ul li a:hover{
+    background-color: #76ff00;
+}
+
+.header3 ul > :nth-last-child(2){
+    padding-right: 0px;
+}
+
+.header3 ul > :last-child{
+    padding-left: 24px;
+    padding-right: 0;
+    width: 20px;
+}
+
+.banner{
+    background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ), url("../images/banner-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+ }
+
+.banner-text{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.banner-wrapper{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 30%;
+}
+
+.banner-text h2{
+    font-size: 40px;
+}
+
+.banner-text p{
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+.btn-holder{
+    position: relative;
+    bottom: 20px;
+}
+
+.btn1{
+    background-color: #79B52F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: #5fb500;
+}
+
+.btn2{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: black;
+}
+
+.card-container {
+    background-color: white;
+    padding-left: 70px;
+}
+
+.card1{
+    background-color: #4886FF;
+    color: white;
+    box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 23.5%;
+    height: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.card2{
+    background-color: #FF6F6F;
+    color: white;
+    box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 23.5%;
+    height: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.card3{
+    background-color: #B5D56A;
+    color: white;
+    box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 23.5%;
+    height: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.card4{
+    background-color: #FA8147;
+    color: white;
+    box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 23.5%;
+    height: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.card-container .card1 .heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-container .card1:last-child{
+    margin-right: 0;
+}
+
+.card-container .card2 .heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-container .card2:last-child{
+    margin-right: 0;
+}
+
+.card-container .card3 .heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-container .card3:last-child{
+    margin-right: 0;
+}
+
+.card-container .card4 .heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-container .card4:last-child{
+    margin-right: 0;
+}
